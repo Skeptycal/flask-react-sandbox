@@ -2,11 +2,7 @@ language: python
 sudo: required
 services:
   - docker
-install:
-  - make pydev-image
-  - make jsdev-image
 script:
-  - make pytest
-  - ls -l
-  - sudo make clean
-  - make jstest
+  - env
+  - pwd
+  - df -h
