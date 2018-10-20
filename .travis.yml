@@ -6,5 +6,7 @@ install:
   - make pydev-image
   - make jsdev-image
 script:
-  - make clean pytest
-  - make clean jstest
+  - make pytest
+  - ls -l
+  - sudo make clean
+  - make jstest
