@@ -1,0 +1,9 @@
+sudo: required
+services:
+  - docker
+install:
+  - make pydev-images
+  - make jsdev-image
+script:
+  - make pytest
+  - make jstest
