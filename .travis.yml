@@ -6,3 +6,5 @@ script:
   - env
   - pwd
   - df -h
+  - COOKIE_DIR=$(mktemp -d)
+  - echo $COOKIE_DIR
