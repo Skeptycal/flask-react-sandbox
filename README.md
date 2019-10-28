@@ -1,5 +1,7 @@
 # Example App
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/skeptycal/flask-react-sandbox.svg)](https://greenkeeper.io/)
+
 Example App is a Flask+React web app
 
 Build Docker images with Python and JavaScript dev/test requirements installed.
